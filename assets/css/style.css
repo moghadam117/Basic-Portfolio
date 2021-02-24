@@ -1,0 +1,361 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+html,
+h1 {
+  background-color: teal;
+}
+header {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+nav {
+  background-color: #ffffff;
+
+  max-width: 960px;
+  margin: 0 auto;
+}
+hr {
+  margin: 0;
+}
+footer {
+  background-color: #666666;
+  padding-top: 2.5rem;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  padding-bottom: 10px;
+  border-top: 8px solid teal;
+}
+main {
+  max-width: 960px;
+  margin: 20px auto;
+  position: relative;
+  align-content: center;
+  padding-top: 20px;
+  min-height: 680px;
+
+  padding-bottom: 20px;
+  background-color: #ffffff;
+  border: solid 1px #dddddd;
+  height: auto;
+  line-height: 2rem;
+}
+section {
+}
+h1,
+h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bolder;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-image: url(/assets/images/spikes.png);
+  color: #a3a3a3;
+  font-weight: bold;
+}
+img {
+  width: 320px;
+  height: 240px;
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
+  float: left;
+  position: relative;
+  padding-bottom: 20px;
+}
+#div1 {
+  position: absolute;
+  background-color: teal;
+  width: 320px;
+  text-align: center;
+  top: 290px;
+  margin-left: 20px;
+  color: #ffffff;
+  line-height: 2.5rem;
+}
+#div2 {
+  position: absolute;
+  background-color: teal;
+  width: 320px;
+  text-align: center;
+  top: 290px;
+  margin-left: 380px;
+  color: #ffffff;
+  line-height: 2.5rem;
+}
+#div3 {
+  position: absolute;
+  background-color: teal;
+  width: 320px;
+  text-align: center;
+  top: 550px;
+  margin-left: 20px;
+  color: #ffffff;
+  line-height: 2.5rem;
+}
+#div4 {
+  position: absolute;
+  background-color: teal;
+  width: 320px;
+  text-align: center;
+  top: 550px;
+  margin-left: 380px;
+  color: #ffffff;
+  line-height: 2.5rem;
+}
+#div5 {
+  position: absolute;
+  background-color: teal;
+  width: 320px;
+  text-align: center;
+  top: 810px;
+  margin-left: 20px;
+  color: #ffffff;
+  line-height: 2.5rem;
+}
+nav ul {
+  float: right;
+}
+nav ul li {
+  display: inline-block;
+  margin: auto;
+  padding-left: 1.5rem;
+  padding-top: 1.5rem;
+}
+nav h1 {
+  display: inline-block;
+  color: #ffffff;
+  margin: auto;
+  padding: 1.5rem;
+  font-size: larger;
+}
+a {
+  text-decoration: none;
+  color: #777777;
+}
+
+h2 {
+  color: teal;
+  font-size: larger;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+main hr {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 92%;
+  margin-left: 20px;
+  padding: 10px;
+  text-decoration: none;
+}
+label {
+  margin-left: 20px;
+}
+textarea {
+  margin-left: 20px;
+  width: 94%;
+}
+#submit {
+  background-color: teal;
+  color: #ffffff;
+  width: 15%;
+  font-weight: bold;
+  box-shadow: none;
+}
+#submit:hover {
+  cursor: pointer;
+  color: lightgreen;
+}
+img:hover {
+  cursor: pointer;
+}
+a:hover {
+  color: lightgreen;
+}
+#portfolio {
+  min-height: 880px;
+}
